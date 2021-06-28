@@ -1,15 +1,12 @@
 :root {
   --royal-blue: #0c1446;
   --seafoam: #87aca3;
-  --teal: #87aca3;
-  --teal-green: #175873;
   --white: #ffffff;
 }
 
 * {
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  /* margin: 20px; */
   border-radius: 10px;
 }
 
@@ -71,7 +68,6 @@ p {
 a {
   color: var(--seafoam);
   text-decoration: none;
-  /* padding-right: 40px; */
 }
 
 a:hover {
@@ -95,9 +91,9 @@ a:hover {
 
 .btn:hover {
   color: var(--teal-green);
-  background-color: var(--tertiary);
+  background-color: var(--white);
   transform: translate(0, 0);
-  box-shadow: 2px 2px var(--white);
+  box-shadow: var(--seafoam);
 }
 
 .btn-logout {
