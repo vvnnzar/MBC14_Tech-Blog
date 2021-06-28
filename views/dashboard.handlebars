@@ -1,0 +1,12 @@
+<div >
+        {{#each posts as |post|}}
+            {{> user-posts }}
+        {{/each}}
+
+    <div>
+        <a href="/add-post">
+            <button id="add-post-btn" class="btn">Add Post</button>
+        </a>
+    </div>
+</div>
+

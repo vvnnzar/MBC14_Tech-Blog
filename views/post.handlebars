@@ -1,0 +1,26 @@
+
+{{#if is_owner}}
+    {{> modify-post }}
+{{else}}
+    <div class="card">
+        <div class="card-header">
+            <h3>{{title}}</h3>
+            <p>Created by {{user.username}}</p>
+        </div>
+        <p>{{content}}</p>
+    </div>
+    {{#each comments as |comment| }}
+        <div class="card">
+            <div>
+                <p class="input-lrg">{{comment.comment_content}}</p>
+                <p class="user-details">Created By {{comment.user.username}}, {{format_date date_created}}</p>
+            </div>
+        </div>
+    {{/each}}
+    {{> add-comment }}
+{{/if}}
+
+
+
+
+

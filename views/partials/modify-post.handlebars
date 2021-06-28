@@ -1,0 +1,24 @@
+<div class="card">
+  <h2 class="card-header">Update Post</h2>
+  <form>
+    <div>
+      <label for="post-title">Title</label>
+      <input
+        class="input-sml"
+        type="textarea"
+        id="post-title"
+        value="{{title}}"
+      />
+    </div>
+    <div>
+      <label for="post-content">Content</label>
+      <textarea class="input-lrg" id="post-content">{{content}}</textarea>
+    </div>
+    <div>
+      <button id="update-post" class="btn">Update</button>
+      <button id="delete-post" class="btn">Delete</button>
+    </div>
+  </form>
+</div>
+
+<script src="/js/modifyPost.js"></script>
