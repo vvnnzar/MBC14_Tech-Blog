@@ -21,4 +21,4 @@ const addPost = async (event) => {
   }
 };
 
-document.querySelector("#add-post").addEventListener("submit", addPost);
+document.querySelector("#add-post").addEventListener("click", addPost);
