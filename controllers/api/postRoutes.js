@@ -5,7 +5,7 @@ const withAuth = require("../../utils/auth");
 router.post("/", withAuth, async (req, res) => {
   try {
     const addPost = await Post.create({
-      ...req.mody,
+      ...req.body,
       user_id: req.session.user_id,
     });
 
@@ -24,7 +24,7 @@ router.put("/:id", async (req, res) => {
       },
     });
     if (postData.length === 0) {
-      res.status(404).json({ message: "No post with this id!" });
+      res.status(404).json({ message: "No post found with this id!" });
       return;
     }
     res.status(200).json(postData);
@@ -43,7 +43,7 @@ router.delete("/:id", withAuth, async (req, res) => {
     });
 
     if (!postData) {
-      res.status(404).json({ message: "No post found with this id" });
+      res.status(404).json({ message: "No post found with this id!" });
       return;
     }
     res.status(200).json(postData);
