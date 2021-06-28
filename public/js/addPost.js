@@ -16,9 +16,9 @@ const addPost = async (event) => {
     if (response.ok) {
       document.location.replace("/dashboard");
     } else {
-      alert("Failed to new post");
+      alert("Failed to add new post");
     }
   }
 };
 
-document.querySelector("#add-post").addEventListener("click", addPost);
+document.querySelector("#add-post").addEventListener("submit", addPost);
