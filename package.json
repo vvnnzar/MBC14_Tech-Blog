@@ -1,6 +1,9 @@
 {
   "name": "mbc14_tech-blog",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "Monash Bootcamp Assignment 14 - Tech Blog (MVC)",
   "main": "server.js",
   "scripts": {
