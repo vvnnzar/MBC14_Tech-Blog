@@ -11,7 +11,7 @@ This CMS-style blog site allows developers to publish their blog posts and comme
 ### Screen layout and Design
 
 The following image depicts the web application's appearance and functionality:
-(![Home Page Screen Design]())
+(![Home Page Screen Design](https://github.com/vvnnzar/MBC14_Tech-Blog/blob/main/public/assets/Home.png))
 
 ### Acknowledgements
 
