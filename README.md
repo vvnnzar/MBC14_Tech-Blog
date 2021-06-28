@@ -11,7 +11,7 @@ This CMS-style blog site allows developers to publish their blog posts and comme
 ### Screen layout and Design
 
 The following image depicts the web application's appearance and functionality:
-(![Home Page Screen Design]())
+(![Home Page Screen Design](https://github.com/vvnnzar/MBC14_Tech-Blog/blob/main/public/assets/Home.png))
 
 ### Acknowledgements
 
@@ -37,6 +37,7 @@ To view and modify code you will require installation of HTML and Code editor so
 
 ### Acceptence Criteria
 
+```md
 GIVEN a CMS-style blog site
 WHEN I visit the site for the first time
 THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
@@ -70,6 +71,7 @@ WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+```
 
 ### Code Deployment
 
@@ -83,23 +85,23 @@ To update the project with latest code:
 
 ### Technologies Used
 
-- HTML
-- CSS
-- Javascript
-- Node.Js
-- npm packages:
-  "bcrypt": "^5.0.1",
-  "connect-session-sequelize": "^7.1.1",
-  "dotenv": "^10.0.0",
-  "express": "^4.17.1",
-  "express-handlebars": "^5.3.2",
-  "express-session": "^1.17.2",
-  "handlebars": "^4.7.7",
-  "mysql": "^2.18.1",
-  "mysql2": "^2.2.5",
-  "sequelize": "^6.6.2"
+    HTML
+    CSS
+    Javascript
+    Node.js
+    npm packages:
+      "bcrypt": "^5.0.1",
+      "connect-session-sequelize": "^7.1.1",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-handlebars": "^5.3.2",
+      "express-session": "^1.17.2",
+      "handlebars": "^4.7.7",
+      "mysql": "^2.18.1",
+      "mysql2": "^2.2.5",
+      "sequelize": "^6.6.2"
 
-### Versioning
+### Version Control
 
 v1.0 28/06/2021
 
