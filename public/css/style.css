@@ -2,6 +2,7 @@
   --royal-blue: #0c1446;
   --seafoam: #87aca3;
   --white: #ffffff;
+  --light-blue: #3a3f5c;
 }
 
 * {
@@ -91,7 +92,7 @@ a:hover {
 
 .btn:hover {
   color: var(--teal-green);
-  background-color: var(--white);
+  background-color: var(--light-blue);
   transform: translate(0, 0);
   box-shadow: var(--seafoam);
 }
