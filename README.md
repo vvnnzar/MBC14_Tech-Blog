@@ -8,6 +8,8 @@ This CMS-style blog site allows developers to publish their blog posts and comme
 
 ### Project Heroku Link
 
+https://cryptic-cove-06332.herokuapp.com/
+
 ### Screen layout and Design
 
 The following image depicts the web application's appearance and functionality:
